@@ -20,9 +20,6 @@
 @property (nonatomic,strong) NSDictionary *oldDic;
 
 
-
-
-
 @end
 
 @implementation HSFTabBarController

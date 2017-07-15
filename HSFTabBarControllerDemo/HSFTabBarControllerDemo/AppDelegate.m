@@ -51,13 +51,13 @@
                               @{@"title":@"个人中心", @"selImg":@"home_sel", @"norImg":@"home_nor"}];
     
     
-//    self.tabBarC.norColor = [UIColor lightGrayColor];
-//    self.tabBarC.selColor = [UIColor redColor];
-//    self.tabBarC.isHaveTopline = YES;//是否有顶部的黑线
+    self.tabBarC.norColor = [UIColor lightGrayColor];
+    self.tabBarC.selColor = [UIColor redColor];
+    self.tabBarC.isHaveTopline = YES;//是否有顶部的黑线
 //    self.tabBarC.isHaveBottomline = YES;//是否有底部的黑线
-    self.tabBarC.loadAll = YES;//是否一次全部加载
-//    self.tabBarC.canScroll = YES;
-//    self.tabBarC.tabBarHeight = 50;
+    self.tabBarC.loadAll = NO;//是否一次全部加载
+    self.tabBarC.canScroll = YES;
+    self.tabBarC.tabBarHeight = 50;
     
     //设置样式
 //    self.tabBarC.barPosition = HSFTabBarPosition_top;
@@ -79,10 +79,10 @@
 //    self.tabBarC.style = HSFTabBarStyle_block;
 //    self.tabBarC.block_color = [[UIColor greenColor] colorWithAlphaComponent:0.6];
 
-//    self.tabBarC.style = HSFTabBarStyle_arrow;
-//    self.tabBarC.arrow_color = [UIColor redColor];
-//    self.tabBarC.arrow_size = CGSizeMake(10, 5);
-//    self.tabBarC.arrow_insert = 0;
+    self.tabBarC.style = HSFTabBarStyle_arrow;
+    self.tabBarC.arrow_color = [UIColor redColor];
+    self.tabBarC.arrow_size = CGSizeMake(10, 5);
+    self.tabBarC.arrow_insert = 0;
     
     //添加paddingLine
 //    [self.tabBarC.tabBar setPaddingLineWithPadding_color:[UIColor groupTableViewBackgroundColor] padding_insert:10];

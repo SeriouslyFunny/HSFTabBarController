@@ -22,11 +22,11 @@
 #pragma mark -viewDidLoad
 - (void)viewDidLoad {
     [super viewDidLoad];
-    //模拟网络请求数据加载
-    self.hud = [MBProgressHUD showActivityMessageInView:@"正在努力加载中"];
-    dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(2 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
-        [self.hud removeFromSuperview];
-    });
+//    //模拟网络请求数据加载
+//    self.hud = [MBProgressHUD showActivityMessageInView:@"正在努力加载中"];
+//    dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(2 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
+//        [self.hud removeFromSuperview];
+//    });
 }
 - (IBAction)nextACTION:(UIButton *)sender {
     VC1_2 *vc1_2 = [[VC1_2 alloc]init];
