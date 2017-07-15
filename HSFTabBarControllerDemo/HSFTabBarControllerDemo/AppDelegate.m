@@ -55,7 +55,7 @@
 //    self.tabBarC.selColor = [UIColor redColor];
 //    self.tabBarC.isHaveTopline = YES;//是否有顶部的黑线
 //    self.tabBarC.isHaveBottomline = YES;//是否有底部的黑线
-    self.tabBarC.loadAll = NO;//是否一次全部加载
+    self.tabBarC.loadAll = YES;//是否一次全部加载
 //    self.tabBarC.canScroll = YES;
 //    self.tabBarC.tabBarHeight = 50;
     

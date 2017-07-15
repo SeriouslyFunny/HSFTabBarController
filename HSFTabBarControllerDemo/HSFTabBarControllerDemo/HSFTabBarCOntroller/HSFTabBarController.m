@@ -91,6 +91,7 @@
         __block CGFloat x = 0.0;
         [self.childVCArr enumerateObjectsUsingBlock:^(id  _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
             UIViewController *vc = (UIViewController *)obj;
+            [vc viewDidLoad];
             [self addChildViewController:vc];
             [self.childVCArr_copy addObject:vc];
             x = self.scrollView.frame.size.width * idx;
@@ -103,6 +104,7 @@
     }else{
         //添加第一个vc
         UIViewController *vc = self.childVCArr.firstObject;
+        [vc viewDidLoad];
         [self addChildViewController:vc];
         [self.childVCArr_copy addObject:vc];
         vc.view.frame = CGRectMake(0, 0, self.scrollView.frame.size.width, self.scrollView.frame.size.height);
@@ -139,6 +141,7 @@
     }else{
         UIViewController *vc = self.childVCArr[index];
         if (![self.childVCArr_copy containsObject:vc]) {
+            [vc viewDidLoad];
             [self addChildViewController:vc];
             [self.childVCArr_copy addObject:vc];
             CGFloat x = self.scrollView.frame.size.width * index;
