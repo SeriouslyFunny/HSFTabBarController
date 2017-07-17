@@ -61,7 +61,7 @@
     
     //设置样式
 //    self.tabBarC.barPosition = HSFTabBarPosition_top;
-//    self.tabBarC.barPosition = HSFTabBarPosition_bottom;
+    self.tabBarC.barPosition = HSFTabBarPosition_bottom;
     
 //    self.tabBarC.indicatorPosition = HSFIndicatorPosition_top;
 //    self.tabBarC.indicatorPosition = HSFIndicatorPosition_bottom;
@@ -100,6 +100,8 @@
     
     /* 请看这里 */
     [self show6Items];
+    
+    
     
     return YES;
 }

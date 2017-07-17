@@ -38,6 +38,13 @@
 		2EA34FB71F19B61F009D703F /* HSFTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EA34FB41F19B61F009D703F /* HSFTabBar.m */; };
 		2EA34FB81F19B61F009D703F /* UIButton+Layout.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EA34FB61F19B61F009D703F /* UIButton+Layout.m */; };
 		2EA34FBB1F19B76C009D703F /* HSFTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EA34FBA1F19B76C009D703F /* HSFTabBarController.m */; };
+		2EB7D1271F1C44EF003E7717 /* DemoVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EB7D1261F1C44EF003E7717 /* DemoVC.m */; };
+		2EB7D12C1F1C478A003E7717 /* ChildVC1.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EB7D12A1F1C478A003E7717 /* ChildVC1.m */; };
+		2EB7D12D1F1C478A003E7717 /* ChildVC1.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2EB7D12B1F1C478A003E7717 /* ChildVC1.xib */; };
+		2EB7D1311F1C479B003E7717 /* ChildVC2.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EB7D12F1F1C479B003E7717 /* ChildVC2.m */; };
+		2EB7D1321F1C479B003E7717 /* ChildVC2.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2EB7D1301F1C479B003E7717 /* ChildVC2.xib */; };
+		2EB7D1361F1C47AB003E7717 /* ChildVC3.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EB7D1341F1C47AB003E7717 /* ChildVC3.m */; };
+		2EB7D1371F1C47AB003E7717 /* ChildVC3.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2EB7D1351F1C47AB003E7717 /* ChildVC3.xib */; };
 		4983265E115DB5D0DD659100 /* libPods-HSFTabBarControllerDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 22617FDBB54F65AC5CC289FC /* libPods-HSFTabBarControllerDemo.a */; };
 /* End PBXBuildFile section */
 
@@ -92,6 +99,17 @@
 		2EA34FB61F19B61F009D703F /* UIButton+Layout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Layout.m"; sourceTree = "<group>"; };
 		2EA34FB91F19B76C009D703F /* HSFTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HSFTabBarController.h; sourceTree = "<group>"; };
 		2EA34FBA1F19B76C009D703F /* HSFTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HSFTabBarController.m; sourceTree = "<group>"; };
+		2EB7D1251F1C44EF003E7717 /* DemoVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoVC.h; sourceTree = "<group>"; };
+		2EB7D1261F1C44EF003E7717 /* DemoVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoVC.m; sourceTree = "<group>"; };
+		2EB7D1291F1C478A003E7717 /* ChildVC1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChildVC1.h; sourceTree = "<group>"; };
+		2EB7D12A1F1C478A003E7717 /* ChildVC1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChildVC1.m; sourceTree = "<group>"; };
+		2EB7D12B1F1C478A003E7717 /* ChildVC1.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ChildVC1.xib; sourceTree = "<group>"; };
+		2EB7D12E1F1C479B003E7717 /* ChildVC2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChildVC2.h; sourceTree = "<group>"; };
+		2EB7D12F1F1C479B003E7717 /* ChildVC2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChildVC2.m; sourceTree = "<group>"; };
+		2EB7D1301F1C479B003E7717 /* ChildVC2.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ChildVC2.xib; sourceTree = "<group>"; };
+		2EB7D1331F1C47AB003E7717 /* ChildVC3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChildVC3.h; sourceTree = "<group>"; };
+		2EB7D1341F1C47AB003E7717 /* ChildVC3.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChildVC3.m; sourceTree = "<group>"; };
+		2EB7D1351F1C47AB003E7717 /* ChildVC3.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ChildVC3.xib; sourceTree = "<group>"; };
 		58402D9208854AF001B28FDA /* Pods-HSFTabBarControllerDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HSFTabBarControllerDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HSFTabBarControllerDemo/Pods-HSFTabBarControllerDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		6717A25D39A74FD5DEB969AA /* Pods-HSFTabBarControllerDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HSFTabBarControllerDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-HSFTabBarControllerDemo/Pods-HSFTabBarControllerDemo.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -136,6 +154,7 @@
 				2E865FFC1F18786D00BB7EEB /* AppDelegate.m */,
 				2E865FFE1F18786D00BB7EEB /* ViewController.h */,
 				2E865FFF1F18786D00BB7EEB /* ViewController.m */,
+				2EB7D1241F1C44EF003E7717 /* TabBar放在顶部的demo */,
 				2E8660011F18786D00BB7EEB /* Main.storyboard */,
 				2E8660041F18786D00BB7EEB /* Assets.xcassets */,
 				2E8660061F18786D00BB7EEB /* LaunchScreen.storyboard */,
@@ -261,6 +280,32 @@
 			path = HSFTabBar;
 			sourceTree = "<group>";
 		};
+		2EB7D1241F1C44EF003E7717 /* TabBar放在顶部的demo */ = {
+			isa = PBXGroup;
+			children = (
+				2EB7D1281F1C476C003E7717 /* 子控制器 */,
+				2EB7D1251F1C44EF003E7717 /* DemoVC.h */,
+				2EB7D1261F1C44EF003E7717 /* DemoVC.m */,
+			);
+			path = "TabBar放在顶部的demo";
+			sourceTree = "<group>";
+		};
+		2EB7D1281F1C476C003E7717 /* 子控制器 */ = {
+			isa = PBXGroup;
+			children = (
+				2EB7D1291F1C478A003E7717 /* ChildVC1.h */,
+				2EB7D12A1F1C478A003E7717 /* ChildVC1.m */,
+				2EB7D12B1F1C478A003E7717 /* ChildVC1.xib */,
+				2EB7D12E1F1C479B003E7717 /* ChildVC2.h */,
+				2EB7D12F1F1C479B003E7717 /* ChildVC2.m */,
+				2EB7D1301F1C479B003E7717 /* ChildVC2.xib */,
+				2EB7D1331F1C47AB003E7717 /* ChildVC3.h */,
+				2EB7D1341F1C47AB003E7717 /* ChildVC3.m */,
+				2EB7D1351F1C47AB003E7717 /* ChildVC3.xib */,
+			);
+			path = "子控制器";
+			sourceTree = "<group>";
+		};
 		5775D2A600FA15AF8C8A6A2F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -345,12 +390,15 @@
 				2E8660721F189F0100BB7EEB /* back@2x.png in Resources */,
 				2E86604E1F1892C900BB7EEB /* VC2.xib in Resources */,
 				2E8660051F18786D00BB7EEB /* Assets.xcassets in Resources */,
+				2EB7D1321F1C479B003E7717 /* ChildVC2.xib in Resources */,
 				2E8660711F189F0100BB7EEB /* back.png in Resources */,
 				2E8660521F1892C900BB7EEB /* VC4.xib in Resources */,
 				2E8660671F18933B00BB7EEB /* VC1_3.xib in Resources */,
 				2E86604C1F1892C900BB7EEB /* VC1.xib in Resources */,
 				2E8660731F189F0100BB7EEB /* back@3x.png in Resources */,
+				2EB7D1371F1C47AB003E7717 /* ChildVC3.xib in Resources */,
 				2E8660561F1892C900BB7EEB /* VC6.xib in Resources */,
+				2EB7D12D1F1C478A003E7717 /* ChildVC1.xib in Resources */,
 				2E8660541F1892C900BB7EEB /* VC5.xib in Resources */,
 				2E8660031F18786D00BB7EEB /* Main.storyboard in Resources */,
 				2E86605D1F18931200BB7EEB /* VC1_2.xib in Resources */,
@@ -419,15 +467,19 @@
 				2E8660661F18933B00BB7EEB /* VC1_3.m in Sources */,
 				2E8660551F1892C900BB7EEB /* VC6.m in Sources */,
 				2E8660001F18786D00BB7EEB /* ViewController.m in Sources */,
+				2EB7D1271F1C44EF003E7717 /* DemoVC.m in Sources */,
 				2E86607D1F18C1D100BB7EEB /* MBProgressHUD+JDragon.m in Sources */,
 				2E8660511F1892C900BB7EEB /* VC4.m in Sources */,
+				2EB7D12C1F1C478A003E7717 /* ChildVC1.m in Sources */,
 				2EA34FB71F19B61F009D703F /* HSFTabBar.m in Sources */,
 				2E86604D1F1892C900BB7EEB /* VC2.m in Sources */,
 				2E86604B1F1892C900BB7EEB /* VC1.m in Sources */,
+				2EB7D1361F1C47AB003E7717 /* ChildVC3.m in Sources */,
 				2E865FFD1F18786D00BB7EEB /* AppDelegate.m in Sources */,
 				2E86604F1F1892C900BB7EEB /* VC3.m in Sources */,
 				2E8660121F1878BC00BB7EEB /* BaseNavigationC.m in Sources */,
 				2EA34FB81F19B61F009D703F /* UIButton+Layout.m in Sources */,
+				2EB7D1311F1C479B003E7717 /* ChildVC2.m in Sources */,
 				2E865FFA1F18786D00BB7EEB /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

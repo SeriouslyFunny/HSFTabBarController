@@ -8,6 +8,14 @@
 
 #import "VC2.h"
 
+//子控制器
+#import "VC1.h"
+#import "VC2.h"
+#import "VC3.h"
+#import "VC4.h"
+#import "VC5.h"
+#import "VC6.h"
+
 @interface VC2 ()
 
 @property (nonatomic,strong) MBProgressHUD *hud;
@@ -16,17 +24,30 @@
 
 @implementation VC2
 
-
-#pragma mark -viewDidLoad
-- (void)viewDidLoad {
-    [super viewDidLoad];
+-(void)viewDidAppear:(BOOL)animated{
+    [super viewDidAppear:animated];
     //模拟网络请求数据加载
     self.hud = [MBProgressHUD showActivityMessageInView:@"正在努力加载中"];
     dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(2 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
         [self.hud removeFromSuperview];
     });
+}
+#pragma mark -viewDidLoad
+- (void)viewDidLoad {
+    [super viewDidLoad];
+    
     
 }
+
+- (IBAction)showDemoVC:(UIButton *)sender {
+    
+    DemoVC *vc = [[DemoVC alloc]init];
+    [self.navigationController pushViewController:vc animated:YES];
+    
+}
+
+
+
 
 
 - (void)didReceiveMemoryWarning {

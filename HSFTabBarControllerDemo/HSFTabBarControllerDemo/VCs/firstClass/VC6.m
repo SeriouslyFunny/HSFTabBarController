@@ -16,15 +16,18 @@
 
 @implementation VC6
 
-
-#pragma mark -viewDidLoad
-- (void)viewDidLoad {
-    [super viewDidLoad];
+-(void)viewDidAppear:(BOOL)animated{
+    [super viewDidAppear:animated];
     //模拟网络请求数据加载
     self.hud = [MBProgressHUD showActivityMessageInView:@"正在努力加载中"];
     dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(2 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
         [self.hud removeFromSuperview];
     });
+}
+#pragma mark -viewDidLoad
+- (void)viewDidLoad {
+    [super viewDidLoad];
+    
 }
 
 

@@ -1,35 +1,23 @@
 //
-//  VC3.m
+//  ChildVC1.m
 //  HSFTabBarControllerDemo
 //
-//  Created by JuZhenBaoiMac on 2017/7/14.
+//  Created by JuZhenBaoiMac on 2017/7/17.
 //  Copyright © 2017年 JuZhenBaoiMac. All rights reserved.
 //
 
-#import "VC3.h"
+#import "ChildVC1.h"
 
-@interface VC3 ()
-
-@property (nonatomic,strong) MBProgressHUD *hud;
+@interface ChildVC1 ()
 
 @end
 
-@implementation VC3
+@implementation ChildVC1
 
--(void)viewDidAppear:(BOOL)animated{
-    [super viewDidAppear:animated];
-    //模拟网络请求数据加载
-    self.hud = [MBProgressHUD showActivityMessageInView:@"正在努力加载中"];
-    dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(2 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
-        [self.hud removeFromSuperview];
-    });
-}
-#pragma mark -viewDidLoad
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
+    // Do any additional setup after loading the view from its nib.
 }
-
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

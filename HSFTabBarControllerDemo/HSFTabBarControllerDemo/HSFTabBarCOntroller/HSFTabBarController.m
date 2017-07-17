@@ -173,6 +173,7 @@
         _scrollView.showsHorizontalScrollIndicator = NO;
         _scrollView.bounces = NO;
         _scrollView.pagingEnabled = YES;
+        _scrollView.directionalLockEnabled = YES;
     }
     return _scrollView;
 }

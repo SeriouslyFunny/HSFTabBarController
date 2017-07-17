@@ -25,11 +25,25 @@
                     <nil key="textColor"/>
                     <nil key="highlightedColor"/>
                 </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="69X-Lw-aV2">
+                    <rect key="frame" x="20" y="364" width="335" height="50"/>
+                    <color key="backgroundColor" red="0.1654905951" green="0.78909448260000004" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="50" id="2nJ-Hn-78z"/>
+                    </constraints>
+                    <state key="normal" title="showDemoVC"/>
+                    <connections>
+                        <action selector="showDemoVC:" destination="-1" eventType="touchUpInside" id="dVB-zt-jcc"/>
+                    </connections>
+                </button>
             </subviews>
             <color key="backgroundColor" red="0.23991911095322027" green="1" blue="0.69005609177665628" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
             <constraints>
                 <constraint firstItem="dmR-Kf-Q55" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="G25-uv-u7m"/>
                 <constraint firstItem="dmR-Kf-Q55" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="LQf-oX-sVz"/>
+                <constraint firstItem="69X-Lw-aV2" firstAttribute="top" secondItem="dmR-Kf-Q55" secondAttribute="bottom" constant="20" id="Wgi-de-Fxc"/>
+                <constraint firstItem="69X-Lw-aV2" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="20" id="Wva-Eb-uK7"/>
+                <constraint firstAttribute="trailing" secondItem="69X-Lw-aV2" secondAttribute="trailing" constant="20" id="vlj-oD-gJl"/>
             </constraints>
         </view>
     </objects>
